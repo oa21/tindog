@@ -63,7 +63,7 @@ p {
 #title .container-fluid {
   padding: 3% 15% 7%;
   text-align: left;
-  margin-top: 5px;
+  margin-top: -5px;
 }
 .title-image {
   width: 50%;
