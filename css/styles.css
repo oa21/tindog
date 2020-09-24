@@ -63,6 +63,7 @@ p {
 #title .container-fluid {
   padding: 3% 15% 7%;
   text-align: left;
+  margin-top: 5px;
 }
 .title-image {
   width: 50%;
@@ -95,7 +96,7 @@ p {
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
-  padding-top: 10px;
+  margin-top: -5px;
 }
 .press-logo {
   width: 15%;
@@ -128,15 +129,14 @@ p {
 }
 
 @media (max-width: 1028px) {
-  #title .container-fluid{
+  #title .container-fluid {
     text-align: center;
   }
   .title-image {
     position: static;
     transform: rotate(0);
   }
-  .carousel-item h2{
+  .carousel-item h2 {
     font-size: 3rem;
-}
-
+  }
 }
